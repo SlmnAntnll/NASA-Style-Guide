@@ -1,0 +1,398 @@
+/* Use the SG-Example.png located in the /Mockup folder 
+as a guide for what you will be building */
+
+/* 
+====================================
+Sets up styles for sidebar / navigation containers
+====================================
+*/
+
+.clear {clear: both;}
+.overflow {overflow: auto;}
+
+.sidebar-logo {width: 150px;}
+
+.sidebar-container {
+  height: 100%;
+  width: 20%;
+  padding: 2.5%;
+  position: fixed;
+}
+
+nav {top: 0;}
+
+nav a, nav h2 {display: block; position: relitive; text-decoration: none;}
+
+nav a {
+  font-family: "HelveticaNeue", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+a {
+color: #0039A6;
+  transition: color .15s;
+}
+
+a:hover {
+color: #E4002B;
+  font-weight:bold;
+}
+
+.center p {
+  text-align: center;
+}
+
+
+.section-container {
+  width: 75%;
+  position: relative;
+  left: 25%;
+  padding: 0 0 2.5% 0;
+}
+
+/* 
+===========================
+Sets up styles for logos 
+============================
+*/
+
+.section-logo {
+  width: 425px;
+  height: 100%;
+}
+
+/* 
+===========================
+Sets up styles for typography 
+============================
+*/
+
+/* Sets up font-face for body copy */ 
+body {
+    font-family: 'HelveticaNeue', open sans, sans-serif;
+    color: black;
+    line-height: 1.4em;
+}
+
+h1, h3, h4 {
+    font-family: "HelveticaNeue", open sans, sans-serif;
+    color: #000;
+    line-height: 1em;
+    font-weight: bolder;
+}
+
+h2{
+    font-family: "HelveticaNeue-light", open sans, sans-serif;
+    color: #000;
+    line-height: 1em;
+    font-weight: lighter;
+}
+
+h5{
+    font-family: "HelveticaNeue-light", open sans, sans-serif;
+    color: #000;
+    line-height: 1em;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h6{
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    line-height: 1em;
+    font-style: italic;
+}
+
+
+.type-styles {
+  font-family: "HelveticaNeue", open sans, sans-serif;
+    margin-top:40px;
+}
+
+.type-faces {
+    margin-top:40px;
+}
+
+
+.type-faces-01 {
+  font-family: "HelveticaNeue", open sans, sans-serif;
+}
+
+.type-faces-02 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.post-eg {margin-top: 40px;}
+
+/* 
+==========================
+Sets up styles for colors 
+===========================
+*/
+
+/* Makes a circle shape to serve a color box */ 
+
+#ColorFlex h3{margin-bottom: 0;}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100%;
+  margin: 20px 20px 0 0;
+  border: 1px solid #000;
+}
+
+.color-shape {
+    display: block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.color-item {
+  border: 1px solid #000;
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+.color-item p, .flex-item p, .nasa-flex-item p {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.last{ margin-right: 0;}
+
+
+/* Makes colors */ 
+.color-red {
+background: #E4002B;
+}
+
+.color-gray {
+background:#75787B;
+}
+
+.color-white {
+background: #FFF;
+border: 1px solid #000;
+}
+
+.color-black {
+  background: #0F1820;
+}
+
+.color-blue {
+    background: #0039A6;
+}
+
+.color-silver {
+    background: #8A8D8F;
+}
+
+
+
+/* 
+===========================
+Sets up styles for button 
+============================
+*/
+
+.button button {
+  height: 40px;
+  width: 120px;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 20px;
+  font-family: "HelveticaNeue", open sans, sans-serif;
+  text-transform: uppercase;
+  font-weight:600;
+  border: none;
+}
+
+.button-normal {
+  background: #E4002B;
+  color: #fff;
+}
+
+.button-hover {
+  background: #F00632;
+  color: #fff;
+}
+
+.button-pressed,
+.button-loading {
+  background: #AD0222;
+  color:#fff;
+}
+
+
+.button-disabled {
+  background: #cccccc;
+  color: #fff;
+}
+
+
+/* 
+===========================
+PSEUDO-CLASSES: VIEW SLIDES 58-63
+============================
+*/
+
+.button:hover {
+    color: #E4002B;
+}
+
+/* 
+==========================
+Sets up styles for icons 
+===========================
+*/
+
+/* TO ADD FONT AWESOME ICONS GO TO THIS LINK AND COPY THE CSS LINK
+https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css
+*/
+
+/*.nasa iconography */
+
+.nasa-flex-item {
+  width: 100px;
+  height: 100%;
+  margin: 20px 20px 0 0;
+  border: none;
+}
+
+
+.nasa-icons i {
+    margin-top: 40px;
+    font-size: 30px;
+    color:rgb(51, 51, 102);
+}
+
+.nasa-icons {
+  width: 100%;
+  height: 100%;
+}
+
+.svg-icons img {
+    margin-top: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+/* footer iconography */
+.social-icons i {
+ font-size: 44px;
+  color: #E4002B;
+}
+
+.social-icons i:hover {
+    color: #75787B;
+}
+
+/* 
+===========================
+Sets up styles for images 
+============================
+*/
+
+#Imagery img {
+    padding: 10px;
+}
+
+
+/* 
+===========================
+Sets up styles for Progress Bar 
+============================
+*/
+.half-page {
+  width: 50%;
+}
+
+.spacing {
+margin: 40px 0;
+}
+
+.spacing-right {
+  margin-right: 40px;
+}
+
+
+.progress-bar {
+  background: #E4002B;
+}
+
+.progress {
+  background: #FFF;
+}
+
+.pbar {
+  height: 50px;
+  border-radius: 30px;
+  border: 2px solid #AD0222;
+}
+
+.progress-bar-striped {
+  background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-size: 1rem 1rem;
+}
+
+
+/* 
+====================================
+Sets up styles for articles
+====================================
+*/
+article {
+margin: 40px 0;
+}
+
+
+#cards {margin: 0 30px;}
+
+.card-container {margin: 30px 0;}
+
+.half-page {
+    width: 50%;
+}
+
+.progress-bar {
+    background: #E4002B;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #E4002B;
+    border-color: #E4002B;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(241, 66, 98);
+    border-color: rgb(241, 66, 98);
+}
+
+.progress {
+    background: #FFF;
+}
+
+.pbar {
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #E4002B;;
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 1rem 1rem;
+}
+/* Copyright Trilogy Education Services © 2018. All Rights Reserved */
